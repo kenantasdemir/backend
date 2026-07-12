@@ -14,7 +14,7 @@ const io = new Server(server);
 const pool = mysql.createPool({
   host: process.env.MYSQLHOST || 'localhost',
   user: process.env.MYSQLUSER || 'root',
-  password: process.env.MYSQLPASSWORD || 'Kenan123..', // Kendi veritabanı şifrenizle değiştirin
+  password: process.env.MYSQLPASSWORD, // Kendi veritabanı şifrenizle değiştirin
   database: process.env.MYSQLDATABASE || 'parlabridge',
   port: process.env.MYSQLPORT ? parseInt(process.env.MYSQLPORT) : 3306
 });
