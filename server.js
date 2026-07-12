@@ -12,10 +12,11 @@ const io = new Server(server);
 
 // MySQL Bağlantı Havuzu
 const pool = mysql.createPool({
-  host: 'localhost',
-  user: 'root',
-  password: 'Kenan123..', // Kendi veritabanı şifrenizle değiştirin
-  database: 'parlabridge'
+  host: process.env.MYSQLHOST || 'localhost',
+  user: process.env.MYSQLUSER || 'root',
+  password: process.env.MYSQLPASSWORD || 'Kenan123..', // Kendi veritabanı şifrenizle değiştirin
+  database: process.env.MYSQLDATABASE || 'parlabridge',
+  port: process.env.MYSQLPORT ? parseInt(process.env.MYSQLPORT) : 3306
 });
 
 // Middleware
