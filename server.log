@@ -1,0 +1,6 @@
+[2026-07-04T13:29:20.063Z] [INFO]: Yeni kayıt isteği alındı: email=npm@hotmail.com, native=null, target=null
+[2026-07-04T15:50:35.321Z] [ERROR]: Yeni kayıt isteği alındı: email=js@hotmail.com, native=null, target=null
+[2026-07-04T16:05:07.743Z] [ERROR]: Yeni kayıt isteği alındı: email=npm@hotmail.com, native=null, target=null
+[2026-07-04T18:34:55.539Z] [ERROR]: Yeni kayıt isteği alındı: email=js@hotmail.com, native=null, target=null
+[2026-07-06T18:54:11.314Z] [ERROR]: Yeni kayıt isteği alındı: email=otro@hotmail.com, native=null, target=null
+[2026-07-08T03:23:54.630Z] [ERROR]: Yeni kayıt isteği alındı: email=ben@hotmail.com, native=null, target=null
